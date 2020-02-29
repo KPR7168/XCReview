@@ -13,6 +13,8 @@
 		25EF04C92406808B0089667D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EF04C72406808B0089667D /* Main.storyboard */; };
 		25EF04CB2406808C0089667D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EF04CA2406808C0089667D /* Assets.xcassets */; };
 		25EF04CE2406808C0089667D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EF04CC2406808C0089667D /* LaunchScreen.storyboard */; };
+		25EF04D6240680D80089667D /* AwesomeReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EF04D5240680D80089667D /* AwesomeReviewView.swift */; };
+		25EF04D8240680E70089667D /* AwesomeReviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EF04D7240680E70089667D /* AwesomeReviewView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		25EF04CA2406808C0089667D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25EF04CD2406808C0089667D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25EF04CF2406808C0089667D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EF04D5240680D80089667D /* AwesomeReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeReviewView.swift; sourceTree = "<group>"; };
+		25EF04D7240680E70089667D /* AwesomeReviewView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AwesomeReviewView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				25EF04C12406808B0089667D /* AppDelegate.swift */,
 				25EF04C32406808B0089667D /* SceneDelegate.swift */,
 				25EF04C52406808B0089667D /* ViewController.swift */,
+				25EF04D5240680D80089667D /* AwesomeReviewView.swift */,
+				25EF04D7240680E70089667D /* AwesomeReviewView.xib */,
 				25EF04C72406808B0089667D /* Main.storyboard */,
 				25EF04CA2406808C0089667D /* Assets.xcassets */,
 				25EF04CC2406808C0089667D /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25EF04D8240680E70089667D /* AwesomeReviewView.xib in Resources */,
 				25EF04CE2406808C0089667D /* LaunchScreen.storyboard in Resources */,
 				25EF04CB2406808C0089667D /* Assets.xcassets in Resources */,
 				25EF04C92406808B0089667D /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25EF04D6240680D80089667D /* AwesomeReviewView.swift in Sources */,
 				25EF04C62406808B0089667D /* ViewController.swift in Sources */,
 				25EF04C22406808B0089667D /* AppDelegate.swift in Sources */,
 				25EF04C42406808B0089667D /* SceneDelegate.swift in Sources */,
